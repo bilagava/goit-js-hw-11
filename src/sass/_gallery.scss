@@ -1,5 +1,5 @@
 .gallery {
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tab) {
       display: flex;
       flex-wrap: wrap;
       margin: -10px;
@@ -18,12 +18,12 @@
       margin-bottom: 0;
     }
   
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $tab) {
       width: calc((100% - 10px * 4) / 2);
       margin: 10px;
     }
   
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $desk) {
       width: calc((100% - 10px * 8) / 4);
     }
   }
